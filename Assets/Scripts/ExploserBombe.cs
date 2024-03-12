@@ -2,10 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ExploserBombe : MonoBehaviour {
+// Script pour gérer l'explosion de la bombe.
+// Par : Skyler-Dominik England
+// Dernière modification : 11/03/2024
 
-	// Use this for initialization
-	void Start () {
+public class ExploserBombe : MonoBehaviour {
+    // |||||||||||||||||||||||||||||||||||||||| Déclaration des Variables |||||||||||||||||||||||||||||||||||||||| \\
+
+
+
+    // ----------------------------------------------------------------------------------------------------------- \\
+
+    // Fonction pour initialisation.
+    void Start () {
 		
 	}
 	
@@ -15,14 +24,13 @@ public class ExploserBombe : MonoBehaviour {
 	}
 
     // Détecte les colisions de l'objert Bombe
-    // Active l'animation de l'objet lorsque le terrain est touché
-    // Détruit l'Objet après un delais (à la fin de son animation) 
     void OnCollisionEnter2D(Collision2D infoCollision)
     {
-        // Si le terrain est touché alors active l'animation de l'objet et détruit le
+        // Si le terrain est touché l'animation est activé et l'objet est détruit.
         if (infoCollision.gameObject.name =="gazon")
         {
-
+            GetComponent<Animator>().enabled = true; // Active l'animation de l'objet lorsque le terrain est touché.
+            Destroy(gameObject, 0.1f);     // Détruit l'Objet après un delais (à la fin de son animation).
         }
     }
 }
