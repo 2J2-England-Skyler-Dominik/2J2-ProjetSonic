@@ -3,7 +3,7 @@ guid: 8d7ec9dbae077486883627117d15c13c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,9 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -31,21 +34,21 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -54,9 +57,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -68,11 +77,1949 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sonicsprites_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 240
+        width: 24
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371ee10e7070cd8478c52e9ae9fadec5
+      internalID: 1519820213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 240
+        width: 36
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85baeed03bf13f040bdff4b49b97d210
+      internalID: 2071268938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 240
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152602584863a8347972674ac8bc2c32
+      internalID: -448558938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 240
+        width: 26
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856636674986fb848abe5e4d51ccbf2c
+      internalID: 1090860625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_4
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 240
+        width: 37
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a810a178cd990f24cb37363b2d8f4c96
+      internalID: -34877344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_5
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 240
+        width: 32
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9635dfee2c27153498be6fb5a3b9c831
+      internalID: 408879744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_6
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 240
+        width: 29
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459f37094fd778c4aaeb6b1dc58d93a8
+      internalID: 560771022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_7
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 240
+        width: 30
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f89773595c499745b2684408c4c8cc1
+      internalID: -363515864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_8
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 240
+        width: 30
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f678c211851c8d4449aa286224097607
+      internalID: -302849811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_9
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 240
+        width: 30
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57250790a222024cbf4ee68ab492aaf
+      internalID: 597619482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_10
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 240
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e543f2cf06bfa4eb0e51bbd1b5894e
+      internalID: -780628762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_11
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 192
+        width: 31
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5be6afdd7a73646a3cde5579bb7239
+      internalID: -329724648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 192
+        width: 31
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4694ef41700a19342bfd3b032142bab1
+      internalID: 1395539859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_13
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 192
+        width: 31
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9074137de40136848911a08bb0acbebc
+      internalID: 2129833392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_14
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 192
+        width: 30
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ec991e20fa4cc459f89c0c977a6618
+      internalID: 1362924657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_15
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 192
+        width: 29
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d9613df7f6f294789193cd0aba1acb
+      internalID: 1605543193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_16
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 192
+        width: 36
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deaac2cf1f0e10245acdfcb5c7ada725
+      internalID: 1041337957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_17
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 192
+        width: 31
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d31c9614405ca848ac5ebb4b134de32
+      internalID: 1084663354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_18
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 192
+        width: 32
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32794dc1788f71459c245af4cf53344
+      internalID: 792846498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_19
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 192
+        width: 30
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ea672972efbf44e85d7bf49ca77ab4
+      internalID: 1697534077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 144
+        width: 39
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443f3959554b3b14a9fecc06e8c7e5ba
+      internalID: -1277538491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_21
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 144
+        width: 39
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af075d5cf177c9e4b9fcb5dfbfd42f3c
+      internalID: -1839823535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_22
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 144
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1f00dad6a1a314cbadf19ab646d2b5
+      internalID: 1871681407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_23
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 144
+        width: 39
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12ce2e13562d7a4786e4f33ac5b8d97
+      internalID: 180529557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_24
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 144
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677cdeccccde47d44ade7aed8d8a3d91
+      internalID: 1811497870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_25
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 144
+        width: 38
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1983dfe82f679a44ba5480b227ea03c2
+      internalID: -49217318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_26
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 144
+        width: 36
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0181a98db4fb843adec678c5e680fb
+      internalID: -84714588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_27
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 144
+        width: 36
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbdad8409ef7514cba001e4c700236c
+      internalID: 2118685172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_28
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 144
+        width: 38
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50d1273c4b2eed4498ffd2bb365bc88
+      internalID: 1296753553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_29
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 96
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5763690874e189541bad0b1178c52438
+      internalID: -1769162300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_30
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 96
+        width: 29
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9808d4cb646d60b4abf8efefb404cf19
+      internalID: -1061651966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_31
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 96
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c8605827a8ce2469a1ec23e5995c7a
+      internalID: 810152834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_32
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 96
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56265fb25098747469d78081b841e8fd
+      internalID: 142982225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_33
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 96
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1752c64ed1a1894da8787a904174c2e
+      internalID: -235696965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_34
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 99
+        width: 40
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddb35b59b7fd614ca8ade0854ccb5f3
+      internalID: -2022175692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_35
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 96
+        width: 30
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a570e68ffa903664caa8b2ad0e9e87db
+      internalID: -1239250735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_36
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 96
+        width: 34
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67c764b019d429469267c7812242641
+      internalID: 1091688589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_37
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 114
+        width: 9
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2c196a55f4c2b4982be6cf2b65f15f
+      internalID: -407208997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_38
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 109
+        width: 7
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fee05154a4c1b499770924903af518
+      internalID: 1500048485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_39
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 114
+        width: 6
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e5ba234b9ebbc4d92ded53d66565fe
+      internalID: 804944787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_40
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 114
+        width: 10
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c82935defd0ad24ea8670e65fc8b0b1
+      internalID: -680809017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_41
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 114
+        width: 7
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53eed932174ddfc49a58467710e534f5
+      internalID: 1594135892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_42
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 114
+        width: 6
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5549e88b2657a9048a37d4b990465b86
+      internalID: 136346042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_43
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 109
+        width: 7
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef75048910706d245a317fac8ef72641
+      internalID: 853980398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_44
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 114
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55567cca8923e8e4daf41db423671342
+      internalID: 1167515018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_45
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 114
+        width: 6
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9500a83547848de4aac67ccd8f59bc1f
+      internalID: 1580703443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_46
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 48
+        width: 29
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42459eba0b90bfd4ca65712cb33227bc
+      internalID: -1536157853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_47
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 48
+        width: 20
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05837ddc25f7fc74f913ec84aa16a71b
+      internalID: 1896440875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_48
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 48
+        width: 25
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472789e2a350fb44eb07f1316c6d48b8
+      internalID: -817146274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_49
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 48
+        width: 25
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ee119982f90eb4b9807a819bc1fe4d
+      internalID: 164649469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_50
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 48
+        width: 20
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5dba6e9bebc0c440a66e2ea39014279
+      internalID: 921841004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_51
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 47
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79965f69f0070b34da2df8d2f8b60570
+      internalID: 1617618986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_52
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 49
+        width: 34
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe528852a5a2284789efed7d7737dbc
+      internalID: 1108512761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_53
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 75
+        width: 12
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e66399d9055c444bdc6aabeb815343
+      internalID: 1281980374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_54
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 89
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d044b1318c1dac448ab5f235047f8ca
+      internalID: 248688554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_55
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 75
+        width: 11
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e278f3ba116eba54e88a6de6569d7730
+      internalID: 1966239860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_56
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 49
+        width: 29
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7eb3639d11d5b7488c36b836b54d434
+      internalID: -1730052519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_57
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 49
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c67e95198563d4469f3f2a017505f1a
+      internalID: 1528225266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_58
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 75
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd626b4501d48034f8d3609dc1804c5b
+      internalID: -1590548165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_59
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 75
+        width: 10
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6650c8127ed804b80ce0e130eb065e
+      internalID: 978612947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_60
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 75
+        width: 10
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0964752dca417a64aac03478de928bdb
+      internalID: -1087622973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_61
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 37
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0215e8b915892bd47ad0999eaf5b0a06
+      internalID: 1291508648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_62
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 0
+        width: 27
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae821f4caa3e774f91773394e662b91
+      internalID: -1075473400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_63
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 29
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e10c655a6c598a47b88e22b496f9710
+      internalID: -1366348276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_64
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 0
+        width: 38
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca289740c873144289ce8b3115aea01
+      internalID: -704221817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_65
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 0
+        width: 29
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580ebb4de99e01346b88048854299609
+      internalID: 1843231460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_66
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 0
+        width: 27
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281663e42f32d604daf949f315d2a286
+      internalID: -1925414544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_67
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 14
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb7719cef1225242b876d9241517420
+      internalID: 447242884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_68
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 14
+        width: 8
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5ecbd873dfa6c40aa36627e2a9f460
+      internalID: 997219474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_69
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 18
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f677b300c8103449281b1fd7ce492d
+      internalID: -1212795318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_70
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 18
+        width: 8
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a683b564c1ad34a8a888b14dc20f88
+      internalID: 290987087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_71
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 18
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3471b6be96945346bfd552045a5bbb8
+      internalID: -324152921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_72
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 18
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41db7276de2fa3b41829253eab7e473f
+      internalID: 1433094782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_73
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 18
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001e4143134aa514c9727ce687b44fa7
+      internalID: -1968973291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_74
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 18
+        width: 8
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d018af5e563f094098dee819d450bdf
+      internalID: 823163034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_75
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 18
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2392690b0b70a940b414567e863d9f7
+      internalID: 1159793434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_76
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 18
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9332441c64465478eac596791f4705
+      internalID: -595283469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_77
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 17
+        width: 6
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a63d141c2fd42e44b16fe5fbc10f80a
+      internalID: 1507435478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_78
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 18
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b053f03c45334b4188d72e25b3e8080
+      internalID: -1091072461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_79
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 18
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59f6b02b73438947be3f9f6386d05c2
+      internalID: -1631430902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_80
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 18
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481d0b5d0d543b149b520e27df5ef4ee
+      internalID: 1479553972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_81
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 18
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a48fc17899ab247b2560d0bf23fb17
+      internalID: 2048203082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_82
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 18
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d6bebc831fc594b89e9157c1f3ea56
+      internalID: -1190360824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_83
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 18
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a3b0be762b1964d9301668d0293c2a
+      internalID: 1082535090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_84
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 18
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5620ee2e8e34c4f965fd15e3281a47
+      internalID: -957942813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_85
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 18
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049334468920959438cb6b776d31b755
+      internalID: 116517225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_86
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 18
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8729b1ec1877f459912132200dd7a7
+      internalID: -881826267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_87
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 18
+        width: 10
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258c7fa614269644da895423c995782b
+      internalID: -342010426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_88
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 18
+        width: 5
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a677fe4835143c84a81deec316ca85b4
+      internalID: 2128250090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_89
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 18
+        width: 5
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae9f113045afcc4b8af5f381239201e
+      internalID: 1460343014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonicsprites_90
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 18
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba7baf7ee05ddc439bca21fe55025e7
+      internalID: 728616422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -83,9 +2030,100 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      sonicsprites_0: 1519820213
+      sonicsprites_1: 2071268938
+      sonicsprites_10: -780628762
+      sonicsprites_11: -329724648
+      sonicsprites_12: 1395539859
+      sonicsprites_13: 2129833392
+      sonicsprites_14: 1362924657
+      sonicsprites_15: 1605543193
+      sonicsprites_16: 1041337957
+      sonicsprites_17: 1084663354
+      sonicsprites_18: 792846498
+      sonicsprites_19: 1697534077
+      sonicsprites_2: -448558938
+      sonicsprites_20: -1277538491
+      sonicsprites_21: -1839823535
+      sonicsprites_22: 1871681407
+      sonicsprites_23: 180529557
+      sonicsprites_24: 1811497870
+      sonicsprites_25: -49217318
+      sonicsprites_26: -84714588
+      sonicsprites_27: 2118685172
+      sonicsprites_28: 1296753553
+      sonicsprites_29: -1769162300
+      sonicsprites_3: 1090860625
+      sonicsprites_30: -1061651966
+      sonicsprites_31: 810152834
+      sonicsprites_32: 142982225
+      sonicsprites_33: -235696965
+      sonicsprites_34: -2022175692
+      sonicsprites_35: -1239250735
+      sonicsprites_36: 1091688589
+      sonicsprites_37: -407208997
+      sonicsprites_38: 1500048485
+      sonicsprites_39: 804944787
+      sonicsprites_4: -34877344
+      sonicsprites_40: -680809017
+      sonicsprites_41: 1594135892
+      sonicsprites_42: 136346042
+      sonicsprites_43: 853980398
+      sonicsprites_44: 1167515018
+      sonicsprites_45: 1580703443
+      sonicsprites_46: -1536157853
+      sonicsprites_47: 1896440875
+      sonicsprites_48: -817146274
+      sonicsprites_49: 164649469
+      sonicsprites_5: 408879744
+      sonicsprites_50: 921841004
+      sonicsprites_51: 1617618986
+      sonicsprites_52: 1108512761
+      sonicsprites_53: 1281980374
+      sonicsprites_54: 248688554
+      sonicsprites_55: 1966239860
+      sonicsprites_56: -1730052519
+      sonicsprites_57: 1528225266
+      sonicsprites_58: -1590548165
+      sonicsprites_59: 978612947
+      sonicsprites_6: 560771022
+      sonicsprites_60: -1087622973
+      sonicsprites_61: 1291508648
+      sonicsprites_62: -1075473400
+      sonicsprites_63: -1366348276
+      sonicsprites_64: -704221817
+      sonicsprites_65: 1843231460
+      sonicsprites_66: -1925414544
+      sonicsprites_67: 447242884
+      sonicsprites_68: 997219474
+      sonicsprites_69: -1212795318
+      sonicsprites_7: -363515864
+      sonicsprites_70: 290987087
+      sonicsprites_71: -324152921
+      sonicsprites_72: 1433094782
+      sonicsprites_73: -1968973291
+      sonicsprites_74: 823163034
+      sonicsprites_75: 1159793434
+      sonicsprites_76: -595283469
+      sonicsprites_77: 1507435478
+      sonicsprites_78: -1091072461
+      sonicsprites_79: -1631430902
+      sonicsprites_8: -302849811
+      sonicsprites_80: 1479553972
+      sonicsprites_81: 2048203082
+      sonicsprites_82: -1190360824
+      sonicsprites_83: 1082535090
+      sonicsprites_84: -957942813
+      sonicsprites_85: 116517225
+      sonicsprites_86: -881826267
+      sonicsprites_87: -342010426
+      sonicsprites_88: 2128250090
+      sonicsprites_89: 1460343014
+      sonicsprites_9: 597619482
+      sonicsprites_90: 728616422
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
