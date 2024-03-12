@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// Script de contrôle des déplacements, des sauts de Sonic et des detections de collisions.
+// Script de contrôle des déplacements et des sauts de Sonic, ainsi que les detections de collisions.
 // Par : Skyler-Dominik England
 // Dernière modification : 12/03/2024
 public class ControlerPersonnage : MonoBehaviour
@@ -44,7 +44,7 @@ public class ControlerPersonnage : MonoBehaviour
         if (Input.GetKeyDown("w"))
         {
             vitesseY = vitesseSaut;
-            GetComponent<Animator>().SetBool("saut", true); // L'animation de part.
+            GetComponent<Animator>().SetBool("saut", true); // L'animation de saut part.
 
         }
         else
