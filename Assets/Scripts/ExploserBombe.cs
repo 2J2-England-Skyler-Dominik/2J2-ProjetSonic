@@ -7,23 +7,8 @@ using UnityEngine;
 // Dernière modification : 11/03/2024
 
 public class ExploserBombe : MonoBehaviour {
-    // |||||||||||||||||||||||||||||||||||||||| Déclaration des Variables |||||||||||||||||||||||||||||||||||||||| \\
 
-
-
-    // ----------------------------------------------------------------------------------------------------------- \\
-
-    // Fonction pour initialisation.
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
-    // Détecte les colisions de l'objert Bombe
+    // Détectes les collisions de l'objet Bombe.
     void OnCollisionEnter2D(Collision2D infoCollision)
     {
         // Si le terrain est touché l'animation est activé et l'objet est détruit.
