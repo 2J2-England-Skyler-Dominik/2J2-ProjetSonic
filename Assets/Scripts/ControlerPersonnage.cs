@@ -1,24 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 // Script de contrôle des déplacements et des sauts de Sonic, ainsi que les detections de collisions.
 // Par : Skyler-Dominik England
-// Dernière modification : 12/03/2024
+// Dernière modification : 19/03/2024
 public class ControlerPersonnage : MonoBehaviour
 {
     // |||||||||||||||||||||||||||||||||||||||| Déclaration des Variables |||||||||||||||||||||||||||||||||||||||| \\
 
-    public float vitesseX;      // Vitesse horizontale actuelle.
-    public float vitesseXMax;   // Vitesse horizontale Maximale désirée.
-    public float vitesseY;      // Vitesse verticale .
-    public float vitesseSaut;   // Vitesse de saut désirée.
+    public float vitesseX;          // Vitesse horizontale actuelle.
+    public float vitesseXMax;       // Vitesse horizontale Maximale désirée.
+    public float vitesseY;          // Vitesse verticale .
+    public float vitesseSaut;       // Vitesse de saut désirée.
 
     // ----------------------------------------------------------------------------------------------------------- \\
 
-
     // ||||||||||||||||||| Détection des touches et modification de la vitesse de déplacement |||||||||||||||||||| \\
-    
+
     // Fonction pour initialisation.
     void Update ()
     {
@@ -48,7 +48,6 @@ public class ControlerPersonnage : MonoBehaviour
         {
             vitesseY = vitesseSaut;
             GetComponent<Animator>().SetBool("saut", true); // L'animation de saut part.
-
         }
         else
         {
@@ -84,7 +83,51 @@ public class ControlerPersonnage : MonoBehaviour
             // Quand il y a une collision avec le sol à la fin du saut, ...
             GetComponent<Animator>().SetBool("saut", false); // L'animation de saut arrête.
         }
+
+        // Détection des collisions avec l'objet "Bombe".
+        if (collision.gameObject.name == "Bombe")
+        {
+            GetComponent<Animator>().SetTrigger("mort"); // Si l'objet "Bombe" entre en collision avec Sonic, l'animation "Mort" de Sonic est activé.
+
+            // Si la position de Sonic est plus grande que l'objet touché (Si il est à droite de l'écran) ...
+            if (transform.position.x > collision.transform.position.x)
+            {
+                GetComponent<Rigidbody2D>().velocity = new Vector2(10, 30); // On pousse le personnage vers la droite en X et on augmente la hauteur en Y.
+            }
+            else
+            {
+                GetComponent<Rigidbody2D>().velocity = new Vector2(-10, 30); // On pousse le personnage vers la gauche en X on et augmente la hauteur en Y.
+            }
+
+            Invoke("RecommencerJeu", 3f);
+        }
+
+        // Détection des collisions avec l'objet "Roue".
+        if (collision.gameObject.name == "Roue")
+        {
+            GetComponent<Animator>().SetTrigger("mort"); // Si l'objet "Roue" entre en collision avec Sonic, l'animation "Mort" de Sonic est activé.
+
+            // Si la position de Sonic est plus grande que l'objet touché (Si il est à droite de l'écran) ...
+            if (transform.position.x > collision.transform.position.x)
+            {
+                GetComponent<Rigidbody2D>().velocity = new Vector2(10, 30); // On pousse le personnage vers la droite en X et on augmente la hauteur en Y.
+            }
+            else
+            {
+                GetComponent<Rigidbody2D>().velocity = new Vector2(-10, 30); // On pousse le personnage vers la gauche en X on et augmente la hauteur en Y.
+            }
+
+            Invoke("RecommencerJeu", 3f);
+        }
+    }
+    // -------------------------------------------------------------------------------------------------------- \\
+
+    // |||||||||||||||||||||||||||||||||||||||||||||| Fonctions ||||||||||||||||||||||||||||||||||||||||||||||| \\
+    void RecommencerJeu()
+    {
+        SceneManager.LoadScene(0);
     }
     // -------------------------------------------------------------------------------------------------------- \\
 }
+
 
