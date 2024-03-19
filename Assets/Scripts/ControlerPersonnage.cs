@@ -40,8 +40,11 @@ public class ControlerPersonnage : MonoBehaviour
             vitesseX = GetComponent<Rigidbody2D>().velocity.x;  // La vitesse actuelle en X est mémorisé.
         }
 
-        // Sauter l'objet à l'aide la touche "w".
-        if (Input.GetKeyDown("w"))
+        // Vérifie la position du point de pivot du personnage. Le layer du personnage à été mit à Ignorecast.
+        print(Physics2D.OverlapCircle(transform.position, 0.5f) == true);
+
+        // Fait sauter le personnage à l'aide la touche "w" seulement lorsqu'il se trouve par terre.
+        if (Input.GetKeyDown("w") && Physics2D.OverlapCircle(transform.position, 0.5f))
         {
             vitesseY = vitesseSaut;
             GetComponent<Animator>().SetBool("saut", true); // L'animation de saut part.
@@ -75,9 +78,12 @@ public class ControlerPersonnage : MonoBehaviour
 
     // |||||||||||||||||||||||||||||||||||||||| Gestion des collisions |||||||||||||||||||||||||||||||||||||||| \\
     void OnCollisionEnter2D(Collision2D collision)
-    {   
-        // Quand il y a une collision avec le sol à la fin du saut, ...
-        GetComponent<Animator>().SetBool("saut", false); // L'animation de saut arrête.
+    {   // Arrêter l'animation du saut SEULEMENT si il y a collision avec les PIEDS du personnage.
+        if (Physics2D.OverlapCircle(transform.position, 0.5f))
+        {
+            // Quand il y a une collision avec le sol à la fin du saut, ...
+            GetComponent<Animator>().SetBool("saut", false); // L'animation de saut arrête.
+        }
     }
     // -------------------------------------------------------------------------------------------------------- \\
 }
