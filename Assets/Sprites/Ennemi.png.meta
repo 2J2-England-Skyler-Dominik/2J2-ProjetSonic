@@ -133,7 +133,7 @@ TextureImporter:
         serializedVersion: 2
         x: 12
         y: 2
-        width: 460
+        width: 459
         height: 464
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -152,10 +152,10 @@ TextureImporter:
       name: Ennemi_1
       rect:
         serializedVersion: 2
-        x: 520
-        y: 304
-        width: 101
-        height: 97
+        x: 522
+        y: 306
+        width: 99
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,7 +193,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e1458c8abb65a554aa0f25554add14cf
     internalID: 0
     vertices: []
     indices: 
