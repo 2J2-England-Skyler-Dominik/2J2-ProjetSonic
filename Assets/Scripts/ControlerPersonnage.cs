@@ -166,7 +166,8 @@ public class ControlerPersonnage : MonoBehaviour
     // Fonction poor recommencer le Jeu.
     void RecommencerJeu()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0); // La scène avec l'index numéro 0 est chargée. 
+        // SceneManager.LoadScene(1); // La scène avec l'index numéro 1 est chargée. (Utilisé pour le développement.)
     }
 
     // Fonction pour changer l'etatAttaque à false après l'attaque de Sonic.

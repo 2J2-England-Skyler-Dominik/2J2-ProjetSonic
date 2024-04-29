@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ProjetSonic-I.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/MenuPrincipal.unity
+    guid: 4a332fc5010b06348a758dc2d830a59a
+  - enabled: 1
+    path: Assets/Scenes/ProjetSonic-IV.unity
+    guid: eec0d0665e3432e499756fdf18031210
   m_configObjects: {}
