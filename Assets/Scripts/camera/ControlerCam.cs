@@ -8,7 +8,7 @@ using UnityEngine;
 
 public class ControlerCam : MonoBehaviour
 {
-    public GameObject Camera1;          // Permet de gérer la caméra "CamEnfant" liée à Sonic.
+    public GameObject Camera1;          // Permet de gérer la caméra "CamEnfant" liée au personnageJoueur.
     public GameObject Camera2;          // Permet de gérer la caméra "Cam2".
 
 
@@ -22,14 +22,14 @@ public class ControlerCam : MonoBehaviour
     // Fonction pour l'initialisation qui s'exécute en boucle.
     void Update()
     {
-        // Si la touche 1 situé dans la rangée de chiffres est enfoncée...
+        // Si la touche 1 située dans la rangée de chiffres est enfoncée...
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             Camera1.SetActive(true);    // La caméra 1 est activé.
             Camera2.SetActive(false);   // La caméra 2 est désactivé.
 
         }
-        // Si la touche 2 situé dans la rangée de chiffres est enfoncée...
+        // Si la touche 2 située dans la rangée de chiffres est enfoncée...
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             Camera1.SetActive(false);   // La caméra 1 est désactivé.
