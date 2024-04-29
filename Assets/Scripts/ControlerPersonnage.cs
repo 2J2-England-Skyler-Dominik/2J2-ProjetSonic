@@ -15,6 +15,8 @@ public class ControlerPersonnage : MonoBehaviour
     public float vitesseY;          // Vitesse verticale .
     public float vitesseSaut;       // Vitesse de saut désirée.
     public bool etatAttaque = false;// L'État d'attaque de Sonic est à false par défaut.
+    public GameObject FinNiveau1;
+    public GameObject DebutNiveau2;
 
     // ----------------------------------------------------------------------------------------------------------- \\
 
@@ -166,14 +168,24 @@ public class ControlerPersonnage : MonoBehaviour
     // Fonction poor recommencer le Jeu.
     void RecommencerJeu()
     {
-        SceneManager.LoadScene(0); // La scène avec l'index numéro 0 est chargée. 
-        // SceneManager.LoadScene(1); // La scène avec l'index numéro 1 est chargée. (Utilisé pour le développement.)
+        // SceneManager.LoadScene(0); // La scène avec l'index numéro 0 est chargée. 
+        SceneManager.LoadScene(1); // La scène avec l'index numéro 1 est chargée. (Utilisé pour le développement.)
     }
 
     // Fonction pour changer l'etatAttaque à false après l'attaque de Sonic.
     void AnnuleAttaque()
     {
         etatAttaque = false; 
+    }
+
+    // Fonction qui permet de recevoir de l'information lors d'une collision avec un Collider2d trigger.
+    private void OnTriggerEnter2D(Collider2D collisionTrigger)
+    {
+        // Si il y a une collision avec l'objet "FinNiveau1"
+        if(collisionTrigger.gameObject.name == "FinNiveau1")
+        {
+            gameObject.transform.position = DebutNiveau2.transform.position; // Le PJ est téléporté au gameObject "DebutNiveau2".
+        }
     }
     // -------------------------------------------------------------------------------------------------------- \\
 }
